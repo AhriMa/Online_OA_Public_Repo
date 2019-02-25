@@ -1,1 +1,2 @@
-test
+curl "https://api.github.com/users/LaisiMa/repos?per_page=100&page=1" | jq -r '.[] | .name';
+
